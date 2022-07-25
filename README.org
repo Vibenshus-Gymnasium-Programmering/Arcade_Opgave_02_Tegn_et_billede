@@ -138,6 +138,6 @@ For at få fuldt udbytte af opgaven skal I:
 - Husk at anvende ~git~ til løbende at gemme jeres arbejde.
 - Når I mener, at I er færdige, skal ~committe~ og ~pushe~. I jeres besked til commit kan I f.eks. skrive =endelige version=.
 - Hvis I har glemt arbejdsgangen med git er er den nogenlunde således:
-  - ~git add *~
-  - ~git commit -m "Beskrivelse af commit."~
-  - ~git push~
+  - git add .
+  - git commit -m "Beskrivelse af commit."
+  - git push
