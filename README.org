@@ -1,6 +1,6 @@
 #+title: Tegn et "pænt" billede vha =arcade=
 
-Jeres mål med denne opgave er at tegne et "pænt" billede ved at kalde funktioner og få lidt introduktion til computergrafik.
+Målet med denne opgave er at tegne et "pænt" billede ved at kalde funktioner og give jer lidt introduktion til computergrafik.
 
 * Lektier
 
@@ -28,8 +28,10 @@ For at få fuldt udbytte af opgaven skal I:
   
 * Tips
 
+- I kan anvende de foruddefinerede farver i arcadebibliotektet (f.eks. ~arcade.color.BLACk~)
 - Til at blande nye farver kan I anvende [[https://www.google.com/search?q=color+picker]].
 - Kopiér værdierne for RGB. (CMYK, HSV og HSL kan I bare ignorere.)
+- Skriv farverne som f.eks. ~(255, 191, 0)~.
 - Husk på den rækkefølge, som funktionerne bliver kaldt i. Figurer, som tegnes først, vil ligge bagerst. Figurer, som tegnes til sidst, vil ligge oven på de forrige.
 - Husk at I kan slå de forskellige funktioner op her [[https://api.arcade.academy/en/latest/]]. Se under overskriften =API=.
 
@@ -131,3 +133,11 @@ For at få fuldt udbytte af opgaven skal I:
   # Keep the window up until someone closes it.
   arcade.run()
 #+end_src
+
+* Aflevering og git
+- Husk at anvende ~git~ til løbende at gemme jeres arbejde.
+- Når I mener, at I er færdige, skal ~committe~ og ~pushe~. I jeres besked til commit kan I f.eks. skrive =endelige version=.
+- Hvis I har glemt arbejdsgangen med git er er den nogenlunde således:
+  - ~git add *~
+  - ~git commit -m "Beskrivelse af commit."~
+  - ~git push~
